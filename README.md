@@ -14,15 +14,17 @@ First, let’s start with a quick refresher of what end-to-end encryption (“E2
 
 This is what your Firebase app looks like today:
 
-![Your data in Firebase](FirebaseE2EE.png)
+![Your data in Firebase](Firebase_security.png)
 
 Every component in your backend (i.e. Firebase/Google’s backend) has access to every single bit of data that your apps submit to your backend services. No secrets. No privacy. High risk of data breach. And definitely not HIPAA-compliant.
 
 And this is what your app will look like after you implement client-side end-to-end encryption:
 
-[image]
+![Your data in Firebase](FirebaseE2EE.png)
 
 The messages are encrypted on the user device and remain encrypted as they travel over the mobile network/Wi-Fi/Internet, through the cloud/web server, into Firestore, and on the way back to your chat partner (such as a patient or doctor in a healthcare scenario). In other words, none of the networks or servers will have a clue what the two of you are chatting about. It’s the WhatsApp way.
+
+![Your data in Firebase](Firebase_Firestore.png)
 
 ## What can I end-to-end encrypt?
 
