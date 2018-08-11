@@ -14,7 +14,7 @@ First, let’s start with a quick refresher of what end-to-end encryption (“E2
 
 This is what your Firebase app looks like today:
 
-![Your data in Firebase](Firebase security.png)
+![Your data in Firebase](FirebaseE2EE.png)
 
 Every component in your backend (i.e. Firebase/Google’s backend) has access to every single bit of data that your apps submit to your backend services. No secrets. No privacy. High risk of data breach. And definitely not HIPAA-compliant.
 
